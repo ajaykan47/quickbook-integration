@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "1557ae3e-303a-4b7f-b3b7-a61844d251ab",
+		"name": "QuickBook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Company Info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..rToqLyVde0j9N9y31R_gvA.EEKfR6qSmbSvfUe4xFhdPYa28KuggHsdDboFPA6Twdxm0If4XAhN_V6tXsG3IUKbt9_L9jPgiYZRMXGtkRyA4UGOnHeCUMBSZUP3sXPlWqRBWMQTy2UZ2ByOg4YjDmpw39TmMc_oXUGw10N5Ym4U_sWlq9Tn0gEUVvr-zSs9E5rSFvWPWXYNyISPsG6cz2rs0IzX4YchIlRzcVutkVnB6dWobKRAVck4PpGM5UMiBbPHMOIJqaez1-zShy5WU5wUcJN6EX2mmuJeCfU_hEDvhNnt1wKudy1Rff88EhM4ph0DVLNY_UjF2eIc2G76QiUpYek5SbvpzYV2pOWoqEmTkUlrVbdTXAkoSeJU0_dTNw0VkwvNtGwUt9yW6zBmT1XT9vo4hGdXPQsqc2uz5qfQ9meHVEo4tSfZMcZykxOBvm56irELj6Nog7AEky3dMetRWMDV63wqzHI99DKQWOIkRBGTgcLsX90S_Tuw9t2XlQ5EE1bdaAXp3sqny41fPKa-b7rkNW7WW-zbwMXMQvVTjdfYl4k1GYsW7nXGLT1qluIl7SSw54mVWGmHzsruCf5ojO4FEgjCOevPqeCCrmozaq3d8Gmr39oV0vswu0spsH7lF9WXIXrwS3eJIZXs14h1S6GidpKuaB-870guXTzjhweV4gPXisJGjCOh7LRjUOW9tn6eHa5DHD9JIyhAxdBJ-Hm4Yvl7G7NTzBX2zuELQCzqBvXaR-rKIsOzeoMSViD6oFonIPZwb4pn6Z4Xl_Zn.iJgaek3atV0lN-Is3NPsiA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365208479530/companyinfo/4620816365208479530",
+					"protocol": "https",
+					"host": [
+						"sandbox-quickbooks",
+						"api",
+						"intuit",
+						"com"
+					],
+					"path": [
+						"v3",
+						"company",
+						"4620816365208479530",
+						"companyinfo",
+						"4620816365208479530"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bill",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
